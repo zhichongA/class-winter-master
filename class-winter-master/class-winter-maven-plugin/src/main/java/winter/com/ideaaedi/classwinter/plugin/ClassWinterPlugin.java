@@ -25,6 +25,7 @@ import java.io.File;
 @Mojo(name = "class-winter", defaultPhase = LifecyclePhase.PACKAGE, threadSafe = true)
 public class ClassWinterPlugin extends AbstractMojo {
 
+    
     @Parameter(defaultValue = "${project}", readonly = true, required = true)
     private MavenProject project;
     
@@ -33,6 +34,7 @@ public class ClassWinterPlugin extends AbstractMojo {
     
     @Parameter(required = true)
     private String includePrefix;
+    
     
     @Parameter
     private String finalName;
