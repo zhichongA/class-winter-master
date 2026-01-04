@@ -1,0 +1,4 @@
+*.iml
+.idea
+target
+/class-winter-core/dependency-reduced-pom.xml
